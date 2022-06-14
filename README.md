@@ -1,1 +1,1 @@
-# Purple
+https://julia-kurilovich.github.io/rsschool-cv/

@@ -1,0 +1,132 @@
+html,
+body {
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    padding: 40px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.cont-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cont-list li {
+    display: flex;
+    align-items: center;
+
+}
+
+section {
+    width: 49%;
+}
+
+.profile {
+    padding: 20px 0;
+    border-bottom: 5px solid #6e6e6e;
+}
+
+.user-info section {
+    border-bottom: 1px solid #6e6e6e;
+}
+
+hr {
+    width: 200px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background: black;
+    color: #fff;
+    height: 60px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+}
+
+.ava {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo2 {
+    height: 50px;
+}
+
+.cont {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+}
+
+.site-footer {
+    background: black;
+    color: #fff;
+}
+
+.site-footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
